@@ -6,6 +6,7 @@ public class LibrarianArea {
 
     Scanner keyboard = new Scanner(System.in);
     Register register = new Register();
+
     public void librarianArea(){
 
         String librarianchoice;
@@ -26,11 +27,8 @@ public class LibrarianArea {
             case "1":
                 register.clientRegister();
                 break;
-            case "2":
-                break;
-            case "3":
-                break;
             case "4":
+                register.bookRegister();
                 break;
         }
     }

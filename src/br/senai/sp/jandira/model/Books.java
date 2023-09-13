@@ -6,6 +6,5 @@ public class Books {
     int isbn;
     String author;
     String genre;
-    String description;
 
 }
